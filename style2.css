@@ -1,0 +1,84 @@
+body {
+  font-family: Share Tech Mono;
+  color: white;
+  text-align: center;
+  min-height: 377px; /* Important for footer */
+  background-color: #09250a;
+  background-image: url("bg.png");
+}
+
+h1 {
+  font-size: 34px;
+}
+  
+h3 {
+  font-size: 21px;
+}  
+
+p {
+  font-size: 13px;
+}
+
+a:link {
+  color: #06bd6c;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #06bd6c;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+img { /* Helps images responsively scale */
+  max-width: 100%;
+  height: auto;
+  border-radius: 144px; /* Turns profilepic.png into a circle */
+}
+
+i { /* Adds a spacing gap between social media icons */
+  margin-right: 8px;
+}
+
+a.butt { /* Button styling */
+  margin: 0 auto;	
+  position: relative;
+  display:block;
+  max-width: 89%;
+  width: 610px;
+  background-color: #06bd6c;
+  color: white;
+  text-align: center;
+  padding: 13px;
+  transition-duration: 0.3s;
+}
+
+a.butt:hover { /* Button rollover effect */
+  background-color: white;
+  color: #09250a;
+}
+
+.text { /* Textbox for disclaimer.html / terms.html / privacy.html */
+  width: 987px;
+  text-align: left;
+  max-width: 100%;
+  margin: auto;
+}
+
+/* .wrapper + footer send the <footer> section to the bottom of the page */
+
+.wrapper {
+  min-height: calc(100vh - 50px);
+  overflow: hidden;
+}
+
+footer {
+  height: 55px;
+}
